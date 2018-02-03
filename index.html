@@ -6,12 +6,18 @@
 -->
 <html>
 	<head>
-		<title>Abhinav Goyal's Portfolio</title>
+		<title>Abhinav Goyal</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+		p {
+			text-align: justify;
+			text-justify: inter-word;
+		}
+		</style>
 	</head>
 	<body>
 
@@ -25,11 +31,13 @@
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>Abhinav Goyal's Portfolio</h1>
+								<h1>Abhinav Goyal</h1>
 							</div>
 						</div>
-						<span class="image main"><img src="images/IMG_0353.JPG" alt="Profile" /></span>
-						<p>I’m a senior in Mechanical Engineering with Biomechanics Concentration at Johns Hopkins University. I am very passionate I’m very passionate about surgical robots and how they can improve the quality of life of both surgeons and patients. I’m seeking positions where I can continue to apply my surgical robot knowledge, practice good design principles, and make a real difference to the medical community. I gained my surgical robotic experience and knowledge through internships in various academic and private labs. For example, I designed a novel 6-degree force sensor for use with microsurgical robots and I built a sensor-equipped ball-throwing robot that was programmed to throw when a person was in front and in range for my Robot Sensors and Actuators course; my robot was one of the most accurate at throwing the ball. To check out more of my work, click on the following <a href="#work">link</a>.</p>
+						<p>
+						<img src="images/IMG_0353.JPG" alt="Profile" height="260" width="180" align="left" style="margin:0px 25px">
+						I’m a senior in Mechanical Engineering, with a Biomechanics Concentration, at Johns Hopkins University. I am very passionate about engineering and the critical role that engineers play in enabling innovative and sustainable growth in every aspect of human endeavor.  I’m fascinated by all aspects of Engineering (Robotics, Medical Devices, Product and Systems Design, Automotive, Defense Systems, Networked sensors, Data Analytics and Artificial Intelligence Systems, to name just a few) and am seeking positions where I can continue to apply my engineering knowledge to make a real difference to Industry, Consumers, Patients and to Society in general. I gained my engineering experience through internships in various labs headed by pioneers and renowned leaders. For example, I designed a novel 6 degree-of-freedom force sensor for use with microsurgical robots. I also worked on a new "wearable acoustic stethoscopic vest". For one of my courses, I built a sensor-equipped ball-throwing robot that was programmed to throw when a person was detected within range; my robot was one of the most accurate at throwing the ball. I look forward to translating my skills to work on products and systems that are core to the mission of an Enterprise.
+						</p>
 						<nav>
 							<ul>
 								<li><a href="#work">Work</a></li>
@@ -50,10 +58,13 @@
 									<ul>
 										<li><a href="#STScI">STScI</a></li>
 										<li><a href="#GALEN">GALEN</a></li>
-										<li><a href="#Acoustic">Acoustic</a></li>
-										<li><a href="#OpenHand">OpenHand</a></li>
-										<li><a href="#MakerSpace">MakerSpace</a></li>
+										<li><a href="#Acoustic_Stethoscope_Vest">Acoustic Stethoscope Vest</a></li>
+										<li><a href="#Open-Handed_Teleoperation_of_Robotic_Hand">Open-Handed Teleoperation of Robotic Hand</a></li>
+										<li><a href="#Peabody_MakerSpace">Peabody MakerSpace</a></li>
 										<!--<li><a href="#elements">Elements</a></li>-->
+									</ul>
+									<ul class="actions">
+										<li><input type="button" value="Back" onclick="history.back()" /></li>
 									</ul>
 								</nav>
 							</article>
@@ -61,53 +72,63 @@
 						<!-- STScI -->
 							<article id="STScI">
 								<h2 class="major">STScI</h2>	
-								<span class="image main"><img src="images/Picture2.png" alt="Kinematic Mount w/ Adapter Plate" /></span>
+								<p><img src="images/Picture2.png" alt="Kinematic Mount w/ Adapter Plate" height="360" width="240" align="left" style="margin:0px 25px"></p>
 								<p>During my senior year, I have been involved with the development and testing of a new high contrast imaging system at the Space Telescope Science Institute (STScI) for my Senior Design course, alongside two other students. The imaging system will be used to suppress the starlight from distant stars and allow us to view the surrounding celestial bodies with much more clarity.</p>
 								<p>My team’s objective is to develop mechanical components that interface with the optical instruments on the test-bed. The designed components range from parts for positioning and securing the optical instruments to receive the laser beam acting as the distant star for the experiments, to fixing an overly complicated mounting device such that the parts could be moved around as needed without bumping into one another.</p>
 								<p>Our most prominent sub projects are shown above. For the Lateral Shear Detector, we designed a mount that would ensure the detector would receive the laser beam, allowing it to perform its function for aligning the beam. We also designed a kinematic mount with an adapter plate to attach the mount to a motor attached to an XYZ translation stage. The kinematic mount holds a Lyot stop, which is an optical filter that reduces diffraction in the incoming laser beam on the optical testbed. The mounting and base plates were designed to hold various optical components at certain heights and keep them stable.</p>
 								<p>During the spring semester, we will be working on incorporating more optical filters into the testbed, as well as create a pinhole disk that will better replicate a distant light source. We need to experiment with various hole sizes to see which one produces the desired result, as well as see how it will mount on the system. In addition, we need to examine the effects various manufacturing processes could have on the characteristics of the hole.</p>
-								<p>To return to the main work menu, click on the following <a href="#work">link</a>.</p>
+								<ul class="actions">
+									<li><input type="button" value="Back" onclick="history.back()" /></li>
+								</ul>
 							</article>
 
 						<!-- GALEN -->
 							<article id="GALEN">
 								<h2 class="major">GALEN</h2>
-								<span class="image main"><img src="images/Picture6.png" alt="6 DOF Force Sensor" /></span>
+								<p><img src="images/Picture6.png" alt="6 DOF Force Sensor" height="240" width="320" align="left" style="margin:0px 25px"></p>
 								<p>During my junior year at Johns Hopkins, I began work in Professor Russell Taylor’s lab with the team that is researching and refining the GALEN Surgical System - a robot used to reduce surgeon hand tremors and increase precision during head and neck microsurgery. The GALEN robot was created by a Hopkins PhD student, Kevin Olds, who worked with Prof. Taylor and was a senior staff engineer at the Johns Hopkins School of Medicine. He was also someone I was introduced to during the summer of 2017, and I worked with him to develop a new force sensor with six degrees of freedom to be integrated into the robot and replace the inefficient ATI sensors.</p>
 								<p>GALEN was created as an answer to the challenges faced by surgeons during minimally-invasive head and neck operations, such as hand tremor, visualization, and safety. Rather than have the surgeon hold and manipulate long medical instruments (which increases hand tremors and reduces precision) and work through tight spaces near delicate structures that might tear, they can instead work with the robot by guiding it through the procedure, with the robot executing the motions. The surgeon and the robot both hold the surgical instrument, but the robot has a force sensor so the robot can detect forces that the surgeon is exerting on the handle of the tool and just follows the surgeon’s hand.</p>
 								<p>As the force sensor is crucial for the robot’s application, it is very important that the sensor is able to detect even gentle nudges accurately, as well as being very durable and cheap to replace should it break. These were the main issues Kevin and I were dealing with during the summer. Eventually, we came up with a design for a prototype of the new sensor. This sensor is composed of two sensors (both of which have three degrees of freedom) on top of each other with some space in between, as well as a small shaft that goes through the center of the two sensors. Each sensor has strain gages located on both the top and bottom in strategic places, and based on how the sensor bends as the shaft is moved in certain direction, the values that are calculated will be used to determine how much the robot’s arm should move to compensate.</p>
 								<p>The design isn’t finalized yet. We have been running optimization tests on the design so as to focus the strain on the sensor in the areas the gages are located when force is exerted in specific directions. Once we are satisfied with the results, we will fabricate a prototype through machining and test it under various conditions to see how effective it will be when applied to the robot.</p>
-								<p>To return to the main work menu, click on the following <a href="#work">link</a>.</p>
+								<ul class="actions">
+									<li><input type="button" value="Back" onclick="history.back()" /></li>
+								</ul>
 							</article>
 
-						<!-- Acoustic -->		
-							<article id="Acoustic">
-								<h2 class="major">Acoustic</h2>
-								<span class="image main"><img src="images/Picture7.png" alt="Transducer Case" /></span>
+						<!-- Stethoscope Vest -->		
+							<article id="Acoustic_Stethoscope_Vest">
+								<h2 class="major">Acoustic Stethoscope Vest</h2>
+								<p><img src="images/Picture7.png" alt="Transducer Case" height="240" width="240" align="left" style="margin:0px 25px"></p>
 								<p>This past summer, I also worked with Prof. Jim West, the inventor of the electret microphones, on designing and testing parts for the “wearable acoustic stethoscope vest” that his group has been developing. This vest will be composed of electrospun nanofibers of piezoelectric material, with transducers embedded within the fibers and located at places where they would make contact with the patient’s chest (which would be where doctors would normally place stethoscopes at).</p>
 								<p>The transducers will convert the acoustic signal of the body sounds of the patient into electric signals, which will then be transmitted through the fibers into a computer database for analysis. With this data, physicians and researchers will be able to tell if there is any damage or ailing in the patient’s lungs, heart, and other organs. This process will also help to reduce background noise, which has been a major issue in most modern recording of lung sounds.</p>
 								<p>During the summer, I helped with testing prototype materials, (to be used in making the vest), for their ability to convert force into electric signals and to allow these signals to run through them. I also used Solidworks to create different testing apparatus to be used for the tests, and casings to protect materials and reduce error in the data due to external forces.</p>
-								<p>To return to the main work menu, click on the following <a href="#work">link</a>.</p>
+								<ul class="actions">
+									<li><input type="button" value="Back" onclick="history.back()" /></li>
+								</ul>
 							</article>
 
-						<!-- OpenHand -->		
-							<article id="OpenHand">
-								<h2 class="major">OpenHand</h2>
-								<span class="image main"><img src="images/Picture9.png" alt="Open Hand Prototype" /></span>
+						<!-- Teleoperation of Robotic Hand -->		
+							<article id="Open-Handed_Teleoperation_of_Robotic_Hand">
+								<h2 class="major">Teleoperation</h2>
+								<p><img src="images/Picture9.png" alt="Open Hand Prototype" height="240" width="320" align="left" style="margin:0px 25px"></p>
 								<p>During the summer of 2015, I worked as an intern at Professor Matt Mason’s lab in Carnegie Mellon. In that two-month period, I put together a robotic hand that can pick up and manipulate objects. This hand is based on the Yale Open hand, which is the result of the collaboration between Yale, Harvard, and iRobot during the DARPA ARM challenge.</p>
 								<p>It includes three independently driven, under actuated fingers, as well as a fourth actuator that controls abduction and adduction. This allows the hand to transition between power-grasping and precision-grasping configurations. I ordered all the parts and components and assembled a working prototype of the hand to be used for experiments in the lab. I also worked with Leap Motion software to attempt to control the hand via teleoperation, as opposed to simply inputting commands in code to move the hand.</p>
 								<p>Using Leap Motion software, we would record different gestures that we want the hand to make, then use the software to operate the hand and make the same gestures, using the controller’s vision to determine an object’s position and allow the hand to grip said object.  Although I wasn’t able to implement the software into the hand, I was able to make a working prototype capable of picking up small objects.</p>
-								<p>To return to the main work menu, click on the following <a href="#work">link</a>.</p>
+								<ul class="actions">
+									<li><input type="button" value="Back" onclick="history.back()" /></li>
+								</ul>
 							</article>
 
-						<!-- MakerSpace -->		
-							<article id="MakerSpace">
-								<h2 class="major">MakerSpace</h2>
-								<span class="image main"><img src="images/IMG_7729.jpg" alt="Peabody Maker Space" /></span>
+						<!-- Peabody MakerSpace -->		
+							<article id="Peabody_MakerSpace">
+								<h2 class="major">Peabody MakerSpace</h2>
+								<p><img src="images/IMG_7729.jpg" alt="Peabody Maker Space" height="180" width="540"/></p>
 								<p>At the start of 2018 during Intersession at Hopkins, I was asked by one of my Senior Design Professors for help in setting up a Maker Space in the Peabody Institute. This space would be used by Peabody students to build and fix intstruments. In fact, during the spring semester the space was used by students taking the Engineering Design Process course to construct banjos.</p>
 								<p>The entire process of designing and constructing the space took a few days, as we first had to stop at Home Depot to get large sheets of plywood to act as table tops. We also had to stop at the university-owned warehouse to pick up shelves and other types of furniture for usage in the space. Afterwards, we transported all the material to the Institute to be placed in the designated work area.</p>
 								<p>Once all the pieces were in place, they had to moved and arrranged in such a way to allow for mobility and storage. We also had to assemble usable workbenches and a working drill press to be used on different materials.</p>
-								<p>To return to the main work menu, click on the following <a href="#work">link</a>.</p>
+								<ul class="actions">
+									<li><input type="button" value="Back" onclick="history.back()" /></li>
+								</ul>
 							</article>
 
 						<!-- Video -->
@@ -120,24 +141,32 @@
 										<!--<li><a href="#elements">Elements</a></li>-->
 									</ul>
 								</nav>
+								<ul class="actions">
+									<li><input type="button" value="Back" onclick="history.back()" /></li>
+								</ul>
 							</article>
 
 						<!-- OpenHand Demo -->		
 							<article id="OpenHandDemo">
 								<h2 class="major">OpenHand Demo</h2>
-								<video width="560" height="400" autoplay>
+								<video width="560" height="400" controls>
 									<source src="images/20150804_184032.mp4" type="video/mp4">
+								Your browser does not support the video tag
 								</video>
-								<p>To return to the main video menu, click on the following <a href="#video">link</a>.</p>
+								<ul class="actions">
+									<li><input type="button" value="Back" onclick="history.back()" /></li>
+								</ul>
 							</article>
 
 						<!-- RSA Demo -->		
 							<article id="RSADemo">
 								<h2 class="major">RSA Demo</h2>
-								<video width="560" height="400" autoplay>
-									<source src="images/IMG_0498.MOV" type="video/mp4">
+								<video controls="controls" width="560" height="400"
+									name="RSA Demo" src="images/IMG_0498.MOV" type="video/mp4">
 								</video>
-								<p>To return to the main video menu, click on the following <a href="#video">link</a>.</p>
+								<ul class="actions">
+									<li><input type="button" value="Back" onclick="history.back()" /></li>
+								</ul>
 							</article>
 
 						<!-- Contact -->
@@ -159,6 +188,7 @@
 									<ul class="actions">
 										<li><input type="submit" value="Send Message" class="special" /></li>
 										<li><input type="reset" value="Reset" /></li>
+										<li><input type="button" value="Back" onclick="history.back()" /></li>
 									</ul>
 								</form>
 								<ul class="icons">
@@ -415,7 +445,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<div class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</div>
 					</footer>
 
 			</div>
